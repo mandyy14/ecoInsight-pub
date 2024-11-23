@@ -1,0 +1,29 @@
+$icon-size-base: 3rem;
+
+$icon-font-sizes: ();
+$icon-font-sizes: map-merge(
+  (
+    "xxs": 1.25rem,
+    "xs": 1.5rem,
+    "sm": 2.25rem,
+    "md": 3rem,
+    "lg": 4rem,
+    "xl": 5rem,
+    "xxl": 6rem,
+  ),
+  $icon-font-sizes
+);
+
+$dropdown-min-width-sm: 5rem;
+$dropdown-min-width-lg: 20rem;
+$dropdown-min-width-xl: 30rem;
+
+$navbar-dropdown-min-width: calc(#{$dropdown-min-width} + 3rem);
+$navbar-dropdown-min-width-lg: 30rem;
+$navbar-dropdown-min-width-xl: 48rem;
+$navbar-dropdown-spacer: 0.75rem;
+$navbar-dropdown-toggle-margin-bottom: 1.25rem;
+
+$gray-50: lighten($gray-100, 2%);
+
+$hero-height: 700px;

@@ -1,0 +1,48 @@
+// FONTS
+@import "../scss/fonts";
+
+//CORE FILES
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../scss/skins/default/variables";
+@import "../scss/skins/default/custom-variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// general
+@import "custom/general";
+
+// components
+@import "components/navbar";
+@import "components/nav";
+@import "components/badge";
+@import "components/buttons";
+@import "components/pagination";
+@import "components/card";
+@import "components/alerts";
+@import "components/forms";
+@import "components/modal";
+@import "components/widgets";
+
+//plugins
+@import "custom/plugins/aos";
+@import "custom/plugins/rateit";
+@import "custom/plugins/gallery";
+@import "custom/plugins/leaflet";
+@import "custom/plugins/jarallex";
+@import "custom/plugins/lightbox";
+
+//structure
+@import "custom/structure/sidenav";
+@import "custom/structure/footer";
+
+// theme components
+@import "custom/components/header";
+
+//custom components
+@import "custom/components/icons";
+@import "custom/components/avatar";
+
+//theme components
+@import "custom/components/header";
+@import "custom/components/hero";
+@import "custom/components/features";
